@@ -1,7 +1,5 @@
 frappe.db.get_doc('Freshdesk Settings')
 .then(function(r){
-    console.log('Loaded Freshdesk Settings')
-
     function initFreshChat() {
         
         window.fcWidget.init({

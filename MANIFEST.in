@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include freshdesk_plugin *.css
+recursive-include freshdesk_plugin *.csv
+recursive-include freshdesk_plugin *.html
+recursive-include freshdesk_plugin *.ico
+recursive-include freshdesk_plugin *.js
+recursive-include freshdesk_plugin *.json
+recursive-include freshdesk_plugin *.md
+recursive-include freshdesk_plugin *.png
+recursive-include freshdesk_plugin *.py
+recursive-include freshdesk_plugin *.svg
+recursive-include freshdesk_plugin *.txt
+recursive-exclude freshdesk_plugin *.pyc

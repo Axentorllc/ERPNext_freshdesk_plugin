@@ -1,6 +1,6 @@
 ## Freshdesk Plugin
 
-Plugin for FreshDesk
+Plugin to Embed FreshDesk & Freshchat in ERPNext
 
 #### License
 

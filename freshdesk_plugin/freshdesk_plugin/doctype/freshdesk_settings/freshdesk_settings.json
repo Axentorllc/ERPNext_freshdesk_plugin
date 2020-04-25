@@ -4,11 +4,17 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "enable_freshdesk",
   "freshdesk_website_id",
   "freshdesk_host",
   "freshdesk_token"
  ],
  "fields": [
+    {
+        "fieldname": "enable_freshdesk",
+        "fieldtype": "Check",
+        "label": "Enable Freshdesk"
+    },
   {
    "fieldname": "freshdesk_website_id",
    "fieldtype": "Data",
